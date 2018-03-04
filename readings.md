@@ -5,7 +5,7 @@ permalink: /readings/
 
 
 <div class = "bookContainer">
-
+<!--
 <h3><a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/51xwPegEzlL._SX333_BO1,204,203,200_.jpg" width="122" height="180"></a><a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095">Sapiens: A Brief History of Humankind</a></h3>
 
 <p>Yuval Noah Harari</p>
@@ -14,7 +14,7 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 </p>
 </div>
 <hr>
-
+-->
 
 
 
@@ -32,7 +32,7 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 <div class = "bookContainer">
 
 <h3><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/41UGQ2azQgL._SX410_BO1,204,203,200_.jpg" width="122"></a><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496">Nike Culture: The Sign of the Swoosh</a></h3><p>Robert Goldman</p>
-<p>Nike Culture was my first introduction to Critical Theory — the act of taking a real world object or idea and deconstructing its history through philosophical lenses. Nike Culture has challenged me to view the philosophical nature of other objects and ideas and how they affect society.</p>
+<p>Nike Culture was my first introduction to Critical Theory — the act of taking a real world object or idea and deconstructing its history through philosophical lenses. The book challenged me to become more inquisitive about the relationship between people and symbols — and the effect that these have on sociology, marketing, and business more generally.</p>
 </div>
 <hr>
 
@@ -42,7 +42,7 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 
 <p>Thomas M. Sterner</p>
 
-<p>Process over product. We live a significant portion of our lives in autopilot mode. When things don't go our way, many of us get frustrated or attribute our inabilities to factors that are outside of our control. Practicing Mind is a practical introduction to “present moment awareness” and “non-judgemental observation.”</p>
+<p>Practicing Mind was my first exposure to mindfulness — a habit that eventually fueled my interest in meditation not too long after reading this book. Process over product. We live a significant portion of our lives in autopilot mode. When things don't go our way, many of us get frustrated or attribute our inabilities to factors that are outside of our control. Practicing Mind is a practical introduction to “present moment awareness” and “non-judgemental observation.”</p>
 
 </div>
 <hr>
