@@ -70,8 +70,10 @@ Articles
 <p> <a href="https://www.theatlantic.com/magazine/archive/2001/04/the-organization-kid/302164/">The Organization Kid</a> by David Brooks </p>
 <p><a href="https://www.nytimes.com/2015/04/12/opinion/sunday/david-brooks-the-moral-bucket-list.html">The Moral Bucket List</a> by David Brooks</p>
 <p><a href="http://nymag.com/selectall/2016/09/andrew-sullivan-my-distraction-sickness-and-yours.html">I Used to Be a Human Being</a> by Andrew Sullivan</p>
+<p><a href="https://hbr.org/2007/07/the-making-of-an-expert">The Making of an Expert</a></p>
 <p><a href="http://www.cell.com/abstract/S0092-8674(11)00127-9">Hallmarks of Cancer: The Next Generation</a></p> 
-
+<p><a href="http://ftp.newartisans.com/pub/git.from.bottom.up.pdf">Git from the bottom up</a></p>
+<p><a href="http://www.complex.com/pop-culture/2012/01/asap-rockys-guide-to-harlem/7">A$AP Rocky's Guide to Harlem</a></p>
 
 </div>
 
