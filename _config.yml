@@ -24,8 +24,10 @@ markdown:           kramdown
 nav:
   - name:           "Writings"
     href:           "writing"
-  - name:           "Bookshelf"
+  - name:           "Readings"
     href:           "readings"
+  - name:           "Questions"
+    href:           "questions"
   - name:           "About Me"
     href:           "about"
 

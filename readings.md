@@ -3,8 +3,8 @@ title: Readings
 permalink: /readings/
 ---
 
-
 <div class = "bookContainer">
+	Books
 <!--
 <h3><a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/51xwPegEzlL._SX333_BO1,204,203,200_.jpg" width="122" height="180"></a><a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095">Sapiens: A Brief History of Humankind</a></h3>
 
@@ -20,19 +20,17 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 
 <div class = "bookContainer">
 
-<h3><a href="https://www.amazon.com/Machine-That-Changed-World-Revolutionizing/dp/0743299795" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/517eMAFaszL._SX322_BO1,204,203,200_.jpg" width="122" height="180"></a><a href="https://www.amazon.com/Machine-That-Changed-World-Revolutionizing/dp/0743299795">The Machine That Changed the World: The Story of Lean Production-- Toyota's Secret Weapon in the Global Car Wars That Is Now Revolutionizing World Industry</a></h3>
+<p> <a href="https://www.amazon.com/Machine-That-Changed-World-Revolutionizing/dp/0743299795">The Machine That Changed the World</a> by James P. Womack, Daniel T. Jones, Daniel Roo</p>
 
-<p>James P. Womack, Daniel T. Jones, Daniel Roo</p>
-
-<p>Machine that Changed the World is a book written in the early 90s  by a few MIT Sloan Researches on how Toyota changed manufacturing by inventing Lean Manufacturing. Automobiles are interesting since it's one of the most expensive object most people will ever purchase. Moreover, the automobile manufacturing is hidden from the consumer despite being the single most important process for making and breaking players in the space.</p>
+<p>The Machine That Changed The World explores how Toyota emerged as an automotive leader in the early 90s through lean. Perhaps because the authors are academics, the book reads more like an extended research paper than business non-fiction (which is often plagued with dubious anecdotes and lessons). It offers a rigorous comparison of Japanese and European / American automotive companies.  The reader is left with a visceral understanding of how shift in mindset creates compounding returns in quality and quantity of product. Furthermore, it illustrates the strategic advantage of organization culture that is difficult to reproduce.</p>
 </div>
 <hr>
 
 
 <div class = "bookContainer">
 
-<h3><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/41UGQ2azQgL._SX410_BO1,204,203,200_.jpg" width="122"></a><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496">Nike Culture: The Sign of the Swoosh</a></h3><p>Robert Goldman</p>
-<p>Nike Culture was my first introduction to Critical Theory — the act of taking a real world object or idea and deconstructing its history through philosophical lenses. The book challenged me to become more inquisitive about the relationship between people and symbols — and the effect that these have on sociology, marketing, and business more generally.</p>
+<p><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496">Nike Culture: The Sign of the Swoosh</a> by Robert Goldman</p>
+<p>Goldman explores the relationship between people and symbols through Nike's advertising throughout the years.  the impact advertising has on shaping societies ambitions and desires.</p>
 </div>
 <hr>
 
@@ -42,9 +40,13 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 
 <p>Thomas M. Sterner</p>
 
-<p>Practicing Mind was my first exposure to mindfulness — a habit that eventually fueled my interest in meditation not too long after reading this book. Process over product. We live a significant portion of our lives in autopilot mode. When things don't go our way, many of us get frustrated or attribute our inabilities to factors that are outside of our control. Practicing Mind is a practical introduction to “present moment awareness” and “non-judgemental observation.”</p>
+<p>Practicing Mind was my first exposure to mindfulness — a habit that eventually fueled my interest in meditation not too long after reading this book. One of the main ideas presented is "process over product." We live a significant portion of our lives in autopilot mode and when things don't go our way, many of us get frustrated or attribute our inabilities to factors that are outside of our control. Practicing Mind is a practical introduction to “present moment awareness” and “non-judgemental observation.”</p>
 
 </div>
 <hr>
+<div class = "bookContainer">
+Articles
+<p> <a href="https://www.theatlantic.com/magazine/archive/2001/04/the-organization-kid/302164/">The Organization Kid</a> by David Brooks </p>
+</div>
 
 
