@@ -2,64 +2,104 @@
 layout: default
 permalink: /photos/
 ---
-<script>
-var imageGallery = [
-  "http://i.imgur.com/S8L2oHU.png",
-  "http://i.imgur.com/y7Wx7PX.png",
-  "http://i.imgur.com/V574RyL.png",
-  "http://i.imgur.com/y7Wx7PX.png",
-  ];
+<script>    
+var imageGallery = [ 
+  "{{site.baseurl}}/assets/photos/utah.jpg",
+    "{{site.baseurl}}/assets/photos/bodie.jpg",
+  "{{site.baseurl}}/assets/photos/fish1.jpg",
+  "{{site.baseurl}}/assets/photos/fish2.jpg",
+  "{{site.baseurl}}/assets/photos/tokyo_tower.jpg",
+  "{{site.baseurl}}/assets/photos/barc.jpg",
+  "{{site.baseurl}}/assets/photos/greek.jpg",
+  "{{site.baseurl}}/assets/photos/light.jpg",
+  "{{site.baseurl}}/assets/photos/seoul.jpg",
 
+];    
+    
+    
 var imageText = [
-"I am time, the destroyer of all. I have come to consume the world.",
-"It is no measure of health to be well adjusted to a profoundly sick society. -Krishnamurti",
-"Man on rocketship startup", 
-"Earth",
-]
+"Sego, Utah (2016)",
+"Bodie, CA (2017)",
+"Tsukiji Fish Market, Tokyo, Japan (2017)",
+"Tsukiji Fish Market, Tokyo, Japan(2017)",
+"Tokyo Tower, Tokyo, Japan (2018)",
+"Port Olympic, Barcelona, Spain (2018)",
+"Greek Theather, Berkeley, CA (2016)",
+"Santa Cruz, CA (2015)",
+"Seoul, South Korea (2018)",
 
-var imgCount = 0;
-var totalImgs = imageGallery.length -1;
-
-function next() {
-    if(imgCount == totalImgs){
-      imgCount = 0;
-    }  else {
-      imgCount++;
-    }
-   document.getElementById("gallery").src = imageGallery[imgCount];
-   document.getElementById("imageText").innerHTML = imageText[imgCount]; 
+];
+    
+  
+var imgCount = 0;   
+var totalImgs = imageGallery.length -1;   
+function preloadImages() {
+  for (var i = 0; i < imageGallery.length; i++) {
+    img1 = new Image();
+    img1.src = imageGallery[i];
+  }
 }
+    
+  
+function next() {   
+    if(imgCount == totalImgs){    
+      imgCount = 0;   
+    }  else {   
+      imgCount++;   
+    }   
+   document.getElementById("gallery").src = imageGallery[imgCount];   
+   document.getElementById("imageText").innerHTML = imageText[imgCount];
+  document.getElementById('currentImage').innerHTML = imgCount + 1
+}   
+    
+function previous() {   
+    imgCount--;   
+  if(imgCount < 0) imgCount = totalImgs ;   
+       document.getElementById("gallery").src = imageGallery[imgCount];     
+       document.getElementById("imageText").innerHTML = imageText[imgCount]; 
+         document.getElementById('currentImage').innerHTML = imgCount + 1
+    }     
+    
+document.addEventListener("keydown", function(e){   
+  console.log(e.keyCode)    
+  if (e.keyCode == 37) {    
+    previous()    
+  } else if (e.keyCode == 39) {   
+    next()    
+  }   
+});   
+  
+function handlePhotoClick(event, img) {
+        var posX = event.offsetX?(event.offsetX):event.pageX-img.offsetLeft;
+        var posY = event.offsetY?(event.offsetY):event.pageY-img.offsetTop;
+        if (posX > img.width / 2) {
+          next()
+        } else {
+          previous()
+        }
+}
+  
+  
+</script>   
+{% include nav.html %}    
+<div class="content list" id="photolist">   
+<div id="gallerycontainer">   
+<div class="buttons">   
+<a href="#" onclick="previous(); return false;">Back</a> |    
+<a href="#" style="padding-right: 5px;" onclick="next(); return false;">Next</a>
+  <span style="float:right; color: #aaa;"> <span id="currentImage">0</span> of <span id="totalImages">5</span></span>
+</div>    
+<img id="gallery" onclick="handlePhotoClick(event, this)"  src= "{{site.baseurl}}/assets/photos/utah.jpg">    
+<div id="imageText">Sego, Utah (2016)</div>    
 
-function previous() {
-    imgCount--;
-  if(imgCount < 0) imgCount = totalImgs ;
-       document.getElementById("gallery").src = imageGallery[imgCount];  
-       document.getElementById("imageText").innerHTML = imageText[imgCount];  
-    } 
-
-document.addEventListener("keydown", function(e){
-	console.log(e.keyCode)
-	if (e.keyCode == 37) {
-		previous()
-	} else if (e.keyCode == 39) {
-		next()
-	}
-});
-
+    
+</div>    
+</div>
+<script>
+document.getElementById('currentImage').innerHTML = imgCount + 1
+document.getElementById('totalImages').innerHTML = imageGallery.length
+preloadImages()
 </script>
-{% include nav.html %}
-<div class="content list" id="photolist">
-<div id="gallerycontainer">
-<img id="gallery" onclick="next()" src="http://i.imgur.com/S8L2oHU.png" >
-<div id="imageText"> I am time, the destroyer of all. I have come to consume the world. -Bhagvad Gita </div>
 
-<div class="buttons">
-<a href="#" onclick="previous(); return false;">Back</a> |
-<a href="#" onclick="next(); return false;">Next</a> 
-</div>
-
-
-</div>
-</div>
 
 <!-- http://qasar.github.io/assets/yctalk.jpg

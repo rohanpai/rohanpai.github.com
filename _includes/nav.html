@@ -2,10 +2,14 @@
 
 <header class="masthead">
   <h1 class="masthead-title">
-      <strong><a href="{{ site.baseurl }}/">{{ site.name }}</a></strong>
+          <ul class="navlist">
+
+      <strong><a href="{{ site.baseurl }}/"> {{ site.name }}</a></strong>
+    </ul>
   </h1>
   <nav class="masthead-nav">
       <ul class="navlist">
+        <i>Contents</i>
     {% for nav in site.nav %}
     <li class="navitem"><a href="{{site.baseurl}}/{{ nav.href }}">{{ nav.name }}</a></li>
     {% endfor %}

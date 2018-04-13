@@ -72,6 +72,7 @@ h4, h5, h6 {
 }
 
 p {
+  padding-top: 10px;
   margin: 0 0 0.25rem;
 }
 
@@ -375,8 +376,7 @@ tbody tr:nth-child(odd) th {
 
 
 #imageText {
-  width: 400px;
-  float: left;
+  float: right;
 }
 
 .content{
@@ -594,6 +594,7 @@ tbody tr:nth-child(odd) th {
   left: 0;
   padding-left: 100px;
   opacity: .08;
+  background-color: pink;
   background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/662025/scratch.png') repeat center center;
   -webkit-animation: scratch 0.45s steps(1) infinite;
   animation: scratch 0.45s steps(1) infinite;

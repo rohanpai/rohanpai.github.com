@@ -30,15 +30,13 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 <div class = "bookContainer">
 
 <p><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496">Nike Culture: The Sign of the Swoosh</a> by Robert Goldman</p>
-<p>Goldman explores the relationship between people and symbols through Nike's advertising throughout the years.  the impact advertising has on shaping societies ambitions and desires.</p>
+<p>Goldman explores the relationship between people and symbols through Nike's advertising throughout the years. This book made me question the impact advertising has on shaping societies ambitions and desires and think more deeply about advertising.</p>
 </div>
 <hr>
 
 <div class = "bookContainer">
 
-<h3><a href="https://www.amazon.com/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/41xIyq0O4wL._SX311_BO1,204,203,200_.jpg" width="122" height="180"></a><a href="https://www.amazon.com/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908">The Practicing Mind: Developing Focus and Discipline in Your Life</a></h3>
-
-<p>Thomas M. Sterner</p>
+<p><a href="https://www.amazon.com/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908">The Practicing Mind: Developing Focus and Discipline in Your Life</a> by Thomas M. Sterner</p>
 
 <p>Practicing Mind was my first exposure to mindfulness — a habit that eventually fueled my interest in meditation not too long after reading this book. One of the main ideas presented is "process over product." We live a significant portion of our lives in autopilot mode and when things don't go our way, many of us get frustrated or attribute our inabilities to factors that are outside of our control. Practicing Mind is a practical introduction to “present moment awareness” and “non-judgemental observation.”</p>
 
