@@ -28,10 +28,10 @@ nav:
     href:           "readings"
   - name:           "Questions"
     href:           "questions"
-  - name:           "About Me"
-    href:           "about"
   - name:           "Photos"
     href:           "photos"
+  - name:           "About Me"
+    href:           "about"
 
 
 

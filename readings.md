@@ -17,6 +17,13 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 -->
 
 
+<div class = "bookContainer">
+
+<p> <a href="https://www.amazon.com/Poor-Charlies-Almanack-Charles-Expanded/dp/1578645018">Poor Charlie's Almanack</a> by Charlie Munger</p>
+
+<p>I deeply admire that Charlie Munger and Warren Buffet achieved great success through honest and ethical work. This book explores the wisdom and life heuristics of Charlie Munger through an entertaining selection of interviews, letters, and more.</p>
+</div>
+<hr>
 
 <div class = "bookContainer">
 
