@@ -2,7 +2,7 @@
 title: Open Questions
 permalink: /questions/
 ---
-If would greatly appreciate an email (hello [at] rohanpai.com) with your thoughts on any of these
+Would greatly appreciate to hear any thoughts on these please do not hesitate to email me (hello [at] rohanpai.com). Thanks!
 <div class = "bookContainer">
 <p>What is the difference between patience and discipline?</p>
 <p>What is going to change the most in the next 10 years?</p>
