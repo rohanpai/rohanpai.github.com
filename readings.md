@@ -37,7 +37,7 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 <div class = "bookContainer">
 
 <p><a href="https://www.amazon.com/Nike-Culture-Swoosh-Cultural-Icons/dp/0761961496">Nike Culture: The Sign of the Swoosh</a> by Robert Goldman</p>
-<p>Goldman explores the relationship between people and symbols through Nike's advertising throughout the years. This book made me question the impact advertising has on shaping societies ambitions and desires and think more deeply about advertising.</p>
+<p>Goldman explores the relationship between people and symbols through Nike's advertising throughout the years. This book made me question the impact advertising has on shaping personal ambition, individual desire, and think about how symbols change over time.</p>
 </div>
 <hr>
 
