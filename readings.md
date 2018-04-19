@@ -67,7 +67,7 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 
 <div class = "bookContainer">
 <p><a href="https://www.amazon.com/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908">A Guide to Screenwriting Success: Writing for Film and Television</a> by Stephen V. Duncan</p>
-<p>Film and television offer a curated glimpse into what it means to be another human. While this book offers great advice about writing screenplays, the book is more so about effective fictional story telling through characters. It gives the reader an appreciation for media content by providing a framework and vocabulary for decomposing screenplays. I'd recommend this to anyone interested in sketch comedy or trying to write compelling narratives. 
+<p>Film and television offer a curated glimpse into what it means to be another human. While this book offers great advice about writing screenplays, the book is more so about fictional story telling through characters. It gives the reader an appreciation for media content by providing a framework and vocabulary for decomposing screenplays. I'd recommend this to anyone interested in sketch comedy or trying to write compelling narratives. 
 </p>
 </div>
 <hr>
