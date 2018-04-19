@@ -62,9 +62,18 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 <p><a href="https://www.amazon.com/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908">The Practicing Mind: Developing Focus and Discipline in Your Life</a> by Thomas M. Sterner</p>
 
 <p>Practicing Mind was my first exposure to mindfulness — a habit that eventually fueled my interest in meditation not too long after reading this book. One of the main ideas presented is "process over product." We live a significant portion of our lives in autopilot mode and when things don't go our way, many of us get frustrated or attribute our inabilities to factors that are outside of our control. Practicing Mind is a practical introduction to “present moment awareness” and “non-judgemental observation.”</p>
-
 </div>
 <hr>
+
+<div class = "bookContainer">
+<p><a href="https://www.amazon.com/Practicing-Mind-Developing-Discipline-Challenge/dp/1608680908">A Guide to Screenwriting Success: Writing for Film and Television</a> by Stephen V. Duncan</p>
+<p>Film and television offer a curated glimpse into what it means to be another human. While this book offers great advice about writing screenplays, the book is more so about effective fictional story telling through characters. This book gives the reader an appreciation for televised content that we consume in our everyday lives by providing a framework and vocabulary for decomposing screenplays. I'd recommend this to anyone interested in sketch comedy or trying to get an introductions into the mechanics developing compelling story arcs. 
+</p>
+</div>
+<hr>
+
+
+
 <div class = "bookContainer">
 Articles
 <p> <a href="https://www.theatlantic.com/magazine/archive/2001/04/the-organization-kid/302164/">The Organization Kid</a> by David Brooks </p>
