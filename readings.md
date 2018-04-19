@@ -74,6 +74,7 @@ Articles
 <p><a href="http://www.cell.com/abstract/S0092-8674(11)00127-9">Hallmarks of Cancer: The Next Generation</a></p> 
 <p><a href="http://ftp.newartisans.com/pub/git.from.bottom.up.pdf">Git from the bottom up</a></p>
 <p><a href="http://www.complex.com/pop-culture/2012/01/asap-rockys-guide-to-harlem/7">A$AP Rocky's Guide to Harlem</a></p>
+<p><a href="https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm">Amazon Letter to Shareholders April 2018</a> by Jeff Bezos</p>
 
 </div>
 
