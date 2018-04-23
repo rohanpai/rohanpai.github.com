@@ -1,9 +1,10 @@
 ---
-title: Open Questions
+title: Open Questions 🤔
 permalink: /questions/
 ---
 Would greatly appreciate any thoughts on these so please do not hesitate to email me (hello [at] rohanpai.com). Thanks!
 <div class = "bookContainer">
+<p>How can you regulate yourself and control yourself in ways that make your life better?</p>
 <p>What cannot be taught and only experienced?</p>
 <p>What are indicators of strong character?</p>
 <p>When should expertise be highly valued? When should expertise be disregarded?</p>
