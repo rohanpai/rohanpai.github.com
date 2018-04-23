@@ -85,7 +85,7 @@ Articles
 <p><a href="http://www.complex.com/pop-culture/2012/01/asap-rockys-guide-to-harlem/7">A$AP Rocky's Guide to Harlem</a></p>
 <p><a href="https://www.sec.gov/Archives/edgar/data/1018724/000119312518121161/d456916dex991.htm">Amazon Letter to Shareholders April 2018</a> by Jeff Bezos</p>
 <p><a href="https://www.amazon.jobs/principles">Amazon Leadership Principles</a></p>
-<p><a href="https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/faculty/publications/hofmann_luhmann_et_al._2014_effects_of_trait_self_control_on_affective_well-being_and_life_satisfaction_jp_0.pdf">Effects of Self-Control on Life Satisfaction</a></p>
+<p><a href="https://www.theatlantic.com/health/archive/2013/07/study-people-with-a-lot-of-self-control-are-happier/277349/">Effects of Self-Control on Life Satisfaction</a></p>
 
 </div>
 
