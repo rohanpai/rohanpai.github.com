@@ -4,6 +4,9 @@ permalink: /questions/
 ---
 Would greatly appreciate any thoughts on these so please do not hesitate to email me (hello [at] rohanpai.com). Thanks!
 <div class = "bookContainer">
+<p>🆕Is there justice in history?</p>
+<p>🆕Does history have a direction?</p>
+<p>🆕Have people become happier as history unfolded?</p>
 <p>How can you regulate yourself and control yourself in ways that make your life better?</p>
 <p>What cannot be taught and only experienced?</p>
 <p>What are indicators of strong character?</p>
