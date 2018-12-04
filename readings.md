@@ -4,7 +4,7 @@ permalink: /readings/
 ---
 
 <div class = "bookContainer">
-	Books
+	Books I like
 <!--
 <h3><a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095" target="_blank"><img class="book" src="https://images-na.ssl-images-amazon.com/images/I/51xwPegEzlL._SX333_BO1,204,203,200_.jpg" width="122" height="180"></a><a href="https://www.amazon.com/Sapiens-Humankind-Yuval-Noah-Harari/dp/0062316095">Sapiens: A Brief History of Humankind</a></h3>
 
@@ -76,7 +76,8 @@ Sapiens is the most important book I have ever read. Sapiens aims to understand 
 
 <div class = "bookContainer">
 Articles
-<p> <a href="https://www.theatlantic.com/magazine/archive/2001/04/the-organization-kid/302164/">The Organization Kid</a> by David Brooks </p>
+<!--
+<p> <a href="https://www.theatlantic.com/magazine/archive/2001/04/the-organization-kid/302164/">The Organization Kid</a> by David Brooks </p> -->
 <p><a href="https://www.nytimes.com/2015/04/12/opinion/sunday/david-brooks-the-moral-bucket-list.html">The Moral Bucket List</a> by David Brooks</p>
 <p><a href="http://nymag.com/selectall/2016/09/andrew-sullivan-my-distraction-sickness-and-yours.html">I Used to Be a Human Being</a> by Andrew Sullivan</p>
 <p><a href="https://hbr.org/2007/07/the-making-of-an-expert">The Making of an Expert</a></p>
