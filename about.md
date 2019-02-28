@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 ---
 
-<p>In high school, I participated in many hackathons and worked at Apple on <a href="http://icloud.com">iCloud</a>. I left Apple to study Computer Science at UC Berkeley. I spent summers in college at Tesla Motors, Sourcegraph, and the Icahn Institute for Genomics and Multiscale Biology (HammerLab).</p>
+<p>In high school, I participated in hackathons and worked at Apple on <a href="http://icloud.com">iCloud</a>. I left Apple to study Computer Science at UC Berkeley. I spent summers in college at Tesla Motors, Sourcegraph, and the Icahn Institute for Genomics and Multiscale Biology (HammerLab).</p>
 
 <p>Some things I work on:</p>
 <ul>
