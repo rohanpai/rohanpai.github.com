@@ -7,8 +7,8 @@ permalink: /about/
 
 <p>Some things I work on:</p>
 <ul>
-  <li><a href="http://venturefolder.com">VentureFolder</a></li>
-    <li><a href="http://insecureclothing.com">InsecureClothing</a></li>
+  <li><a href="http://venturefolder.com">Venture Folder</a></li>
+    <li><a href="http://insecureclothing.com">Insecure Clothing</a></li>
     <li><a href="http://applied.co">Applied Intuition</a></li>
 </ul>
 
