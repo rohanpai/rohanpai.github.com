@@ -1,0 +1,270 @@
+---
+layout: default
+permalink: /vinyl/
+---
+
+{% include nav.html %}    
+
+<style>
+
+
+#album {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  max-height: 75%;
+  max-width: 75vh;
+}
+#cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://m.media-amazon.com/images/I/814w3H8kG+L._SL1200_.jpg');
+  background-size: 100% 100%;
+  box-shadow: 5px 0 20px 0 rgba(0, 0, 0, 0.6), inset 0 0 10px 5px rgba(255, 255, 255, 0.2), inset 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+#cover::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-image: url('http://i.imgur.com/i0fMWpe.jpg');
+  background-size: 100% 100%;
+  border-radius: 4px;
+  mix-blend-mode: screen;
+  opacity: 0.5;
+  content: '';
+}
+#cover::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://orig06.deviantart.net/0124/f/2013/136/6/7/texture_326_by_sirius_sdz-d65gs3s.jpg');
+  background-size: 100% 100%;
+  border-radius: 4px;
+  mix-blend-mode: screen;
+  opacity: 0.2;
+  content: '';
+}
+#vinyl {
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  z-index: 0;
+  width: 95%;
+  height: 95%;
+  display: block;
+  background-image: url('https://gallery.yopriceville.com/var/resizes/Free-Clipart-Pictures/Music-PNG/Gramophone_Vinyl_LP_Record_PNG_Transparent_Clip_Art_Image.png?m=1462983196');
+  background-size: 106% 106%;
+  background-position: center;
+  box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+  content: '';
+  -webkit-animation: 5s linear spinThat infinite, 1s ease-out getOut 1s forwards;
+          animation: 5s linear spinThat infinite, 1s ease-out getOut 1s forwards;
+}
+#vinyl::before {
+  position: absolute;
+  top: 2.5%;
+  left: 2.5%;
+  z-index: 10;
+  width: 95%;
+  height: 95%;
+  background-image: url('http://www.designresourcebox.com/ths/diverse/blacktextures/82267467.jpg');
+  background-size: 100% 100%;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  opacity: 0.3;
+  content: '';
+}
+#vinyl #print {
+  position: absolute;
+  top: 33%;
+  left: 33%;
+  height: 34%;
+  width: 34%;
+  box-shadow: inset 0 0 0 5px rgba(150, 150, 150, 0.5);
+  background-image: url('http://assets.teamrock.com/image/14d29742-c6f7-43f6-bbe1-6bf7b3b34c6f?w=800');
+  background-size: cover;
+  border-radius: 50%;
+}
+@-webkit-keyframes getOut {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@keyframes getOut {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 50%;
+  }
+}
+@-webkit-keyframes spinThat {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spinThat {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+div.record-collection {
+  white-space: nowrap;
+}
+
+div.albumcover, div.first-albumcover {
+  height: 200px;
+  width: 200px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  margin-right: 185px;
+  color: black;
+  background: lightgray;
+  box-shadow: 3px 3px 5px black;
+  opacity: 1;
+  display: inline-block;
+  text-align: right;
+}
+
+div.first-albumcover {
+  position: relative;
+  background: lightgray;
+  z-index: 20;
+}
+
+div.albumcover {
+  position: relative;
+}
+
+div.albumcover:hover {
+  transform: rotate(-1deg) translate(150px);
+  transition-timing-function: ease-in;
+  transition-duration: 0.3s;
+  transform-origin: 0 100%;
+}
+
+#album-0 {
+  background-image: url("https://coverartarchive.org/release/8b202a5f-b451-48f8-81c0-29675cf02c46/4023393119-500.jpg");
+  background-size: cover;
+}
+#album-1 {
+  background-image: url("https://coverartarchive.org/release/6c05b97c-32c0-4063-ae3d-b06b2797fd5e/865435159-500.jpg");
+  background-size: cover;
+}
+#album-2 {
+  background-image: url("https://coverartarchive.org/release/9f4dcffe-8772-44eb-8772-a0edf2c6529f/2685041429-250.jpg");
+  background-size: cover;
+}
+#album-3 {
+  background-image: url("https://coverartarchive.org/release/6b575427-f110-4c22-bdeb-89620f534da2/8886708360-500.jpg");
+  background-size: cover;
+}
+#album-4 {
+  background-image: url("https://coverartarchive.org/release/a5839dc7-4419-4277-a6fc-f8edebac4d49/979861011-250.jpg");
+  background-size: cover;
+}
+#album-5 {
+  background-image: url("https://coverartarchive.org/release/672d8c35-24f6-499e-b378-70397b876f97/16311779496-250.jpg");
+  background-size: cover;
+}
+#album-6 {
+  background-image: url("https://coverartarchive.org/release/3c506edb-a0fd-4a6e-9111-743dce63e4d0/11547633135-250.jpg");
+  background-size: cover;
+}
+#album-7 {
+  background-image: url("https://coverartarchive.org/release/88ab7a5c-fd27-421e-85f0-f107ed86a43f/21986047480-250.jpg");
+  background-size: cover;
+}
+#album-8 {
+  background-image: url("https://coverartarchive.org/release/bb772ff7-7ed8-435b-9bfe-90df819fa605/2342278124-250.jpg");
+  background-size: cover;
+}
+
+#album-9 {
+  background-image: url("https://coverartarchive.org/release/f6758afb-ecff-410e-8979-b131cfa3c6d3/4114654841-250.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+</style>
+
+
+<div class="content list">
+
+
+    <div class="label">
+        </div>
+        <div class="record-collection" id="record-collection">
+          <div class="first-albumcover" id="album-0"></div>
+          <div class="albumcover" id="album-1"></div>
+          <div class="albumcover" id="album-2"></div>
+          <div class="albumcover" id="album-3"></div>
+          <div class="albumcover" id="album-4"></div>
+          <div class="albumcover" id="album-5"></div>
+          <div class="albumcover" id="album-6"></div>
+          <div class="albumcover" id="album-7"></div>
+          <div class="albumcover" id="album-8"></div>
+          <div class="albumcover" id="album-9"></div>
+        </div>
+
+
+    <div id="wrap">
+        <div id="album">
+            <div id="cover">
+                <div id="print">
+                </div>
+            </div>
+            <div id="vinyl">
+                <div id="print">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <iframe width="100%" height="60" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&mini=1&light=1&autoplay=1&feed=%2FThailanSilva101%2Ftim-maia-nuvens-1982-album%2F" frameborder="0" allow="autoplay"></iframe>
+
+</div>
+
+
+<script>
+
+    /* NOTE that this is a relatively ugly solution. I use position: relative, changing the position of each album. The initial space of the elements remains in the DOM, so you need overflow: hidden to hide it. Alternative would be position: absolute on the albums.*/
+
+
+    var albumCovers = document.getElementsByClassName("albumcover");
+    var recordBox = document.getElementById("record-collection");
+
+    const factor = -350;
+    for (var i = 0; i < albumCovers.length; i++) {
+        albumCovers[i].style.left = (factor + (i * factor) + "px");
+        albumCovers[i].style.zIndex = "" + 19 - i + "";
+    }
+</script>

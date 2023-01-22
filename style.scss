@@ -19,7 +19,7 @@ body {
 }
 
 html {
-  font-family: "Courier New", Courier, Monaco;
+  font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 1.6;
@@ -284,7 +284,7 @@ tbody tr:nth-child(odd) th {
   display: table;
 
   @media (min-width: 38rem){
-    padding: 3rem 1rem;
+    padding: 6rem 1rem;
   }
 
 }
@@ -293,6 +293,7 @@ tbody tr:nth-child(odd) th {
     width: 138px;
     float: left;
     display: table-cell;
+    margin-right: 21px;
 
   &-title {
     font-weight: 300;
@@ -382,7 +383,7 @@ tbody tr:nth-child(odd) th {
 .content{
     padding-left: 30px;
     border-left: 1px solid #dedfe0;
-    font-size: 11px;
+    font-size: 15px;
     display: table-cell;
     vertical-align: top;
 
@@ -504,8 +505,10 @@ tbody tr:nth-child(odd) th {
 
   .page-title {
     margin-bottom: 5px;
-    font-size: 22px;
-    font-weight: 100;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10px;
   }
 
 .highlight .hll { background-color: #ffffcc }
@@ -792,4 +795,15 @@ tbody tr:nth-child(odd) th {
   100% {
     opacity: 1;
   }
+}
+
+
+.navlist strong {
+  font-family: 'Caveat', cursive;
+  font-size: 36px;
+}
+
+.navlist li {
+  font-size: 18px;
+  line-height: 2;
 }

@@ -32,6 +32,8 @@ nav:
     href:           "photos"
   - name:           "About Me"
     href:           "about"
+  - name:           "Vinyl"
+    href:           "vinyl"
 
 
 
@@ -54,5 +56,3 @@ defaults:
     values:
       layout:       "post"
 
-gems:
-  - jekyll-seo-tag
