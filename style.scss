@@ -19,13 +19,13 @@ body {
 }
 
 html {
-  font-family: "Courier New", Courier, Monaco;
-  font-size: 13px;
+  font-family: "Noto Sans JP", "Helvetica Neue", "hiragino kaku gothic pro", "ヒラギノ角ゴ Pro W3", メイリオ, sans-serif;
+  font-size: 18px;
   font-weight: 400;
   line-height: 1.6;
 
   @media (min-width: 38em) {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -284,7 +284,7 @@ tbody tr:nth-child(odd) th {
   display: table;
 
   @media (min-width: 38rem){
-    padding: 3rem 1rem;
+    padding: 5rem 3rem;
   }
 
 }
@@ -332,17 +332,12 @@ tbody tr:nth-child(odd) th {
     margin-bottom: 2rem;
 
     ul {
-        margin-left: 14px;
+        margin-left: 5px;
     }
 
     a {
       color: #2f2f2f;
-      font-weight: 300;
       text-transform: lowercase;
-      -webkit-transition: all .2s ease;
-         -moz-transition: all .2s ease;
-              transition: all .2s ease;
-
       &:hover,
       &:focus {
         color: #333;
@@ -380,9 +375,9 @@ tbody tr:nth-child(odd) th {
 }
 
 .content{
-    padding-left: 30px;
+    padding-left: 50px;
     border-left: 1px solid #dedfe0;
-    font-size: 11px;
+    font-size: 15px;
     display: table-cell;
     vertical-align: top;
 
@@ -393,7 +388,7 @@ tbody tr:nth-child(odd) th {
 }
 
 .post {
-  width: 450px;
+  width: 700px;
   float: left;
 }
 
@@ -505,7 +500,6 @@ tbody tr:nth-child(odd) th {
   .page-title {
     margin-bottom: 5px;
     font-size: 22px;
-    font-weight: 100;
   }
 
 .highlight .hll { background-color: #ffffcc }

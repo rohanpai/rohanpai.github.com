@@ -3,14 +3,4 @@ title: About
 permalink: /about/
 ---
 
-<p>In high school, I participated in hackathons and worked at Apple on <a href="http://icloud.com">iCloud</a>. I left Apple to study Computer Science at UC Berkeley. I spent summers in college at Tesla Motors, Sourcegraph, and the Icahn Institute for Genomics and Multiscale Biology (HammerLab).</p>
-
-<p>Some things I work on:</p>
-<ul>
-  <li><a href="http://venturefolder.com">VentureFolder</a></li>
-    <li><a href="http://insecureclothing.com">InsecureClothing</a></li>
-    <li><a href="http://applied.co">Applied Intuition</a></li>
-</ul>
-
-
-<p>Outside of school and work, I enjoy reading, performing stand up comedy, and traveling.</p>
+Working at the intersection of technology and other interesting industries like autonomous vehicles or life sciences. Right now learning more about autonomous vehicles at <a href="https://applied.co">Applied Intuition</a> (Series D, 3.5B). Previously spent time at <a href="https://apple.com">Apple</a>, <a href="https://tesla.com">Tesla</a>, <a href="https://hammberlab.org">HammerLab</a>, <a href="htps://sourcegraph.com">Sourcegraph</a> (Series D, $2.5B). 
