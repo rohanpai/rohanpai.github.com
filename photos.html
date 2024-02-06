@@ -2,16 +2,27 @@
 layout: default
 permalink: /photos/
 ---
-<script>    
+
+<style>
+  .notClapped {
+    opacity: 0.5;
+    font-size: 15pt;
+  }
+  
+  </style>
+  
+<script>
+
+var imagePrefix = "{{site.baseurl}}/assets/photos/";
 var imageGallery = [ 
-  "{{site.baseurl}}/assets/photos/utah.jpg",
-  "{{site.baseurl}}/assets/photos/fish1.jpg",
-  "{{site.baseurl}}/assets/photos/fish2.jpg",
-  "{{site.baseurl}}/assets/photos/tokyo_tower.jpg",
-  "{{site.baseurl}}/assets/photos/barc.jpg",
-  "{{site.baseurl}}/assets/photos/greek.jpg",
-  "{{site.baseurl}}/assets/photos/light.jpg",
-  "{{site.baseurl}}/assets/photos/seoul.jpg",
+  "utah.jpg",
+  "fish1.jpg",
+  "fish2.jpg",
+  "tokyo_tower.jpg",
+  "barc.jpg",
+  "greek.jpg",
+  "light.jpg",
+  "seoul.jpg",
 
 ];    
     
@@ -25,43 +36,51 @@ var imageText = [
 "Greek Theather, Berkeley, CA (2016)",
 "Santa Cruz, CA (2015)",
 "Seoul, South Korea (2018)",
-
 ];
-    
-  
+
+
+var imageCounts = {}
+
+
 var imgCount = 0;   
 var totalImgs = imageGallery.length -1;   
 function preloadImages() {
   for (var i = 0; i < imageGallery.length; i++) {
     img1 = new Image();
-    img1.src = imageGallery[i];
+    img1.src = imagePrefix + imageGallery[i];
+    imageCounts[imageGallery[i]] = 0;
   }
 }
     
   
-function next() {   
-    if(imgCount == totalImgs){    
-      imgCount = 0;   
-    }  else {   
-      imgCount++;   
-    }   
-   document.getElementById("gallery").src = imageGallery[imgCount];   
+function next(previous, update) {   
+
+  if (!update) {
+    if (previous){
+      imgCount--;   
+      if(imgCount < 0) imgCount = totalImgs ;   
+    } else {
+      if(imgCount == totalImgs){    
+        imgCount = 0;   
+      }  else {   
+        imgCount++;   
+      }
+    }
+  }
+   document.getElementById("gallery").src = imagePrefix + imageGallery[imgCount];   
    document.getElementById("imageText").innerHTML = imageText[imgCount];
   document.getElementById('currentImage').innerHTML = imgCount + 1
+  document.getElementById('clapIcon').setAttribute("photo_id", imageGallery[imgCount]);
+  document.getElementById('clapCount').innerHTML = imageCounts[imageGallery[imgCount]];
+
+  
 }   
-    
-function previous() {   
-    imgCount--;   
-  if(imgCount < 0) imgCount = totalImgs ;   
-       document.getElementById("gallery").src = imageGallery[imgCount];     
-       document.getElementById("imageText").innerHTML = imageText[imgCount]; 
-         document.getElementById('currentImage').innerHTML = imgCount + 1
-    }     
+ 
     
 document.addEventListener("keydown", function(e){   
   console.log(e.keyCode)    
   if (e.keyCode == 37) {    
-    previous()    
+    next(true)    
   } else if (e.keyCode == 39) {   
     next()    
   }   
@@ -73,22 +92,23 @@ function handlePhotoClick(event, img) {
         if (posX > img.width / 2) {
           next()
         } else {
-          previous()
+          next(true)
         }
 }
+
   
-  
-</script>   
+</script> 
 {% include nav.html %}    
 <div class="content list" id="photolist">   
 <div id="gallerycontainer">   
 <div class="buttons">   
-<a href="#" onclick="previous(); return false;">Back</a> |    
+<a href="#" onclick="next(true); return false;">Back</a> |    
 <a href="#" style="padding-right: 5px;" onclick="next(); return false;">Next</a>
   <span style="float:right; color: #aaa;"> <span id="currentImage">0</span> of <span id="totalImages">5</span></span>
 </div>    
 <img id="gallery" onclick="handlePhotoClick(event, this)"  src= "{{site.baseurl}}/assets/photos/utah.jpg">    
 <div id="imageText">Sego, Utah (2016)</div>    
+<div id="clapWrapper"><span class="notClapped" photo_id="test55" id="clapIcon">👏</span>Claps<span id="clapCount">0</span> </div>   
 
     
 </div>    
@@ -100,4 +120,119 @@ preloadImages()
 </script>
 
 
-<!-- http://qasar.github.io/assets/yctalk.jpg
+<script type="module">
+  import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js'
+
+  // If you enabled Analytics in your project, add the Firebase SDK for Google Analytics
+  import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js'
+
+  // Add Firebase products that you want to use
+  import { getAuth } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js'
+  import { getFirestore, doc, runTransaction, collection, where, query, getDocs } from 'https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore.js'
+doc
+
+const firebaseConfig = {
+    apiKey: "AIzaSyCBvtzUQnS9Iiichm42uh7L8Q0qygSG_D0",
+    authDomain: "photos-clap-app.firebaseapp.com",
+    projectId: "photos-clap-app",
+    storageBucket: "photos-clap-app.appspot.com",
+    messagingSenderId: "631007786022",
+    appId: "1:631007786022:web:1ecfeb58c6cf1b822d22e7"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  window.db = getFirestore(app)
+
+
+  async function fetchClapCountsForPhotos(photoIds) {
+  const photosCollectionRef = collection(db, 'photos');
+  const photosQuery = query(photosCollectionRef, where('__name__', 'in', photoIds));
+
+  try {
+    const querySnapshot = await getDocs(photosQuery);
+    querySnapshot.forEach(docSnapshot => {
+      const photoId = docSnapshot.id;
+      const clapCount = docSnapshot.data().claps || 0;
+      imageCounts[photoId] = clapCount;
+    });
+  } catch (error) {
+    console.error("Error fetching clap counts:", error);
+  }
+}
+
+function updateClapCountUI(photoId, clapCount) {
+  const clapCountElement = document.getElementById(`clapCount_${photoId}`);
+  if (clapCountElement) {
+    clapCountElement.textContent = clapCount;
+  }
+}
+
+fetchClapCountsForPhotos(imageGallery);
+
+
+  
+
+  document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('clapIcon').addEventListener('click', (event) => {
+    const photo_id = event.currentTarget.getAttribute("photo_id")
+    ratePhoto(photo_id, db);
+  });
+});
+
+function ratePhoto(photoId, db) {
+  const photoRef = doc(db, 'photos', photoId);
+  runTransaction(db, async (transaction) => {
+    const docSnapshot = await transaction.get(photoRef);
+    if (!docSnapshot.exists()) {
+      transaction.set(photoRef, { claps: 1 });
+    } else {
+      const newClapCount = (docSnapshot.data().claps || 0) + 1;
+      transaction.update(photoRef, { claps: newClapCount });
+      imageCounts[photoId] += 1;
+      next(false, true)
+      debugger
+    }
+  }).catch(error => {
+    console.error("Transaction failed: ", error);
+  });
+
+
+
+
+
+}
+
+
+
+
+</script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div>
