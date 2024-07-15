@@ -5,7 +5,7 @@ permalink: /tokyo-offbeat/
 
 **Tokyo offbeat**
 
-Lesser known places that I like
+Lesser known places that I like.
 
 <br>
 **Nakameguro / Ikejiri-ohashi**
@@ -24,7 +24,8 @@ Lesser known places that I like
 [Queen Sheba](https://maps.app.goo.gl/8fbCYM13K5F4oZP77?g_st=com.google.maps.preview.copy) (restaurant)
 * - Casual, family run Ethiopian restaurant. Sometimes live music
 
-</br>
+<br>
+
 **Yoyogi-Uehara**
 
 [Mi Choripan](https://maps.app.goo.gl/esiwaoLi6SQwCAfm6?g_st=com.google.maps.preview.copy) (restaurant) 
@@ -39,7 +40,7 @@ Lesser known places that I like
 
 <br>
 
-**Sagenjaya **
+**Sagenjaya**
 
 [Los Tacos Azules](https://maps.app.goo.gl/vDUvWqrNPoU9ewpD8?g_st=com.google.maps.preview.copy) (restaurant)
 * - Operated by Marco Monterey MX native and owner-chef and his wife
@@ -50,7 +51,7 @@ Lesser known places that I like
 
 <br>
 
-**Tokyo Station **
+**Tokyo Station**
 
 [Caveman](https://maps.app.goo.gl/7xyedpmmXTdyox1u7?g_st=com.google.maps.preview.copy) (restaurant)
 * - Owner-chef Atsuki Kuroda’s fusion restaurant with fantastic wine selection 
