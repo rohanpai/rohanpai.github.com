@@ -26,8 +26,7 @@ nav:
     href:           "about"
   - name:           "Photos"
     href:           "photos"
-  - name:           "music"
-    href:           "music"
+
 
 
 # Sass
