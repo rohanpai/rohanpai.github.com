@@ -3,8 +3,6 @@ title: Tokyo offbeat
 permalink: /tokyo-offbeat/
 ---
 
-**Tokyo offbeat**
-
 Lesser known places that I like.
 
 <br>
@@ -60,4 +58,7 @@ Lesser known places that I like.
 * - Natural wine shop and bar where people spill on to the street
 
 
+**Other:**
 
+[People make places](https://peoplemakeplaces.com)
+* - Fantastic profiles on different people and their crafts 
