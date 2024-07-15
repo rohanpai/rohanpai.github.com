@@ -7,7 +7,7 @@ permalink: /tokyo-offbeat/
 
 Lesser known places that I like
 
-
+<br>
 **Nakameguro / Ikejiri-ohashi**
 
 [Locale](https://maps.app.goo.gl/Rs6NSWRpdmnm1uow7?g_st=com.google.maps.preview.copy) (breakfast)
@@ -17,14 +17,14 @@ Lesser known places that I like
 * - Local sento that plays jazz in the sauna, incredible but small facility
 
 
-[Adi](https://maps.app.goo.gl/5trsAwJDEJNKwMi57?g_st=com.google.maps.preview.copy (restaurant)
+[Adi](https://maps.app.goo.gl/5trsAwJDEJNKwMi57?g_st=com.google.maps.preview.copy) (restaurant)
 * - Nepalese fine dining by owner-chef Kanchan Adhikari
 
 
 [Queen Sheba](https://maps.app.goo.gl/8fbCYM13K5F4oZP77?g_st=com.google.maps.preview.copy) (restaurant)
 * - Casual, family run Ethiopian restaurant. Sometimes live music
 
-
+</br>
 **Yoyogi-Uehara**
 
 [Mi Choripan](https://maps.app.goo.gl/esiwaoLi6SQwCAfm6?g_st=com.google.maps.preview.copy) (restaurant) 
@@ -37,6 +37,7 @@ Lesser known places that I like
 [Los Papelotes](https://maps.app.goo.gl/foAk4cQiP37GD7uU9?g_st=com.google.maps.preview.copy) (bookshop)
 * - Used bookstore , good vintage magazine selection
 
+<br>
 
 **Sagenjaya **
 
@@ -47,8 +48,10 @@ Lesser known places that I like
 [A-bridge](https://maps.app.goo.gl/L172Gv39QDqW3aTo9?g_st=com.google.maps.preview.copy) (cafe / bar)
 * - Rooftop bar and cafe on the roof of an aged building
 
+<br>
 
-** Tokyo Station **
+**Tokyo Station **
+
 [Caveman](https://maps.app.goo.gl/7xyedpmmXTdyox1u7?g_st=com.google.maps.preview.copy) (restaurant)
 * - Owner-chef Atsuki Kuroda’s fusion restaurant with fantastic wine selection 
 
