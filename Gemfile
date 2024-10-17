@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-gem 'jekyll-seo-tag'
 gem 'jekyll'
 gem "kramdown-parser-gfm" 
 
